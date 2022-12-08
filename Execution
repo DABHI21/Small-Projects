@@ -1,0 +1,26 @@
+from itertools import count
+import random
+
+n = random.randrange(0,100)
+count=0
+while(True):
+
+ count=count+1
+ num=int(input('what is your number'))
+ if n==num :
+     print('you won the game ')
+     break
+ elif n>num:
+     print('try again your number is lower ')
+
+    
+     print("try left : ",7-count)
+
+ elif n<num:
+    print('try again your number is greater')
+    
+    print("try left : ",7-count)
+
+ if count==7:
+    print("game over")
+    break
