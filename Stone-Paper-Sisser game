@@ -1,0 +1,69 @@
+# stone paper sisser game 
+
+def winner():
+    print(win,"games you won")
+    print(loss,"games won by computer")
+    print(draw,"games draw")
+    if win >= loss:
+        print('Congratulation you won the game')
+    else :
+        print("Nice Try but computer won the game")  
+
+from itertools import count
+import random
+from secrets import choice
+count=0
+win=0
+loss=0
+draw=0
+while(True):
+    game=['stone' , 'paper','sisser']
+    choice = random.choice(game)
+    yourchoice=input("what you choose stone , paper or sisser :\n")
+    count=count+1
+    if choice==yourchoice:
+        print(choice)
+        print("draw")
+        draw+=1
+    elif choice=='stone' and yourchoice=="paper":
+        print(choice)
+        print('You win')
+        win=win+1
+        loss=loss+0
+    elif choice=='stone' and yourchoice=="sisser":
+        print(choice)
+        print('you loss')
+        win=win+0
+        loss=loss+1
+    elif choice=='paper' and yourchoice=="stone":
+        print(choice)
+        print('you loss')
+        win=win+0
+        loss=loss+1
+    elif choice=='paper' and yourchoice=="sisser":
+        # print(yourchoice)
+        print(choice)
+        print('you win')
+        win=win+1
+        loss=loss+0
+    elif choice=='sisser' and yourchoice=="paper":
+        # print(yourchoice)
+        print(choice)
+        print('you loss')
+        win=win+0
+        loss=loss+1
+    elif choice=='sisser' and yourchoice=="stone":
+        # print(yourchoice)
+        print(choice)
+        print('you win')
+        win=win+1
+        loss=loss+0
+    else:
+        print('wrong choice')
+        count=count-1
+    if count==10:
+        break
+winner()
+             
+        
+           
