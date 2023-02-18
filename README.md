@@ -8,3 +8,6 @@ Stone, papers, sisser Game :
 In this game you play with computer. 
 You and computer got 10 chances to win after 10 games. if you win most game then you won otherwise computer win the game. 
 
+Flappy Bird 🐦:
+
+This is simple Game.  pygame library functions are used for creating this game. 
