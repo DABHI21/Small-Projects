@@ -1,6 +1,6 @@
 # Small-Game Projects
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=dabhi21&label=Profile%20views&color=0e75b6&style=flat" alt="dabhi21" /></p>
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=dabhi21&label=Repository%20views&color=0e75b6&style=flat" alt="dabhi21" /></p>
 
 Guess Game :  
 In this game a number randomly selected by the computer and user guess what number Computer is select.
